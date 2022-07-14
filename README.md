@@ -8,6 +8,12 @@ Edit RazXgGen.py and add your own items to Json data.
 Please normalize items to 0-100 before using.
 7 different examples are also included for demonstration
 
+![teaser](video/octagon.png)
+
+![teaser](video/Xagon.png)
+
+
+
 <!-- blank line -->
 <figure class="video_container" width="800" height="600">
   <video controls="true" allowfullscreen="false" poster="video/octagon.png" >
