@@ -16,15 +16,15 @@ Please normalize items to 0-100 before using.
 
 ![Xagon](video/Xagon.png)
 
-![Video](video/output.mp4)
+
 
 
 
 <!-- blank line -->
-<figure class="video_container" width="800" height="600">
-  <video controls="true" allowfullscreen="false" poster="video/octagon.png" >
-    <source src="video/output.mp4" type="video/mp4">
-  </video>
-</figure>
+<center>
+<video width="320" height="240" controls>
+  <source src="video/output.mp4" type="video/mp4">
+</video>
+</center>
 <!-- blank line -->
 
