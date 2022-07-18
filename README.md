@@ -12,8 +12,7 @@ Edit RazXgGen.py and add your own items to Json data.
 Please normalize items to 0-100 before using.
 7 different examples are also included for demonstration
 
-Run example online:
-![DEMO](https://ghoushchi.github.io/ICS-HPC/EDA/RazXgGen/html/index6.html)
+### Run example online:![DEMO](https://ghoushchi.github.io/ICS-HPC/EDA/RazXgGen/html/index6.html)
 
 You can see the details of each point by click on it too.
 
@@ -22,9 +21,5 @@ You can see the details of each point by click on it too.
 ![Xagon](video/Xagon.png)
 
 
-
-
-
-<!-- blank line -->
 ![Xagon](video/RazXgGen.gif)
 
