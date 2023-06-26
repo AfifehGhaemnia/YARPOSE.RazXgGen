@@ -13,7 +13,7 @@ Edit RazXgGen.py and add your own items to Json data.
 Please normalize items to 0-100 before using.
 7 different examples are also included for demonstration
 
-### Run example online: [DEMO]([(https://github.com/AfifehGhaemnia/YARPOSE.RazXgGen/blob/master/html/index6.html)])
+### Run example online: [DEMO]([(https://github.io/AfifehGhaemnia/YARPOSE.RazXgGen/blob/master/html/index6.html)])
 
 You can see the details of each point by click on it too.
 
