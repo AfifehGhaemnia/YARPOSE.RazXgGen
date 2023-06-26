@@ -2,7 +2,7 @@
 
 # RazXgGen.py - A python package for generating Razavi's Analog Exa-gons (Analog Octagon)++
 # Copyright (C)2022 M. B. Ghaznavi-Ghoushchi
-# Edit by 2023 AfifehGhaemnia
+# Edit by  AfifehGhaemnia 2023
 #
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -48,7 +48,7 @@ root = os.path.dirname(os.path.abspath(__file__))
 # Edit json if you want
 filename = os.path.join(root, 'html', 'index.html')
 mydata = [
-{"Parameters":       '["Noise", "Linearity", "Gain", "Supply Voltage", "Voltage Swing", "Speed", "I/O Impedance", "Power"]'},
+{"Parameters":       '["Noise", "Linearity", "Gain", "Supply Voltage", "Slew Rate", "Speed", "I/O Impedance", "Power"]'},
 {"DesignName": "Design 1", "borderColor": "red", "pointStyle": "triangle", "data": '[65, 75, 70, 80, 60, 80, 60, 70]'},
 ]
 with open(filename, 'w') as fh:
