@@ -2,6 +2,7 @@
 
 # RazXgGen.py - A python package for generating Razavi's Analog Exa-gons (Analog Octagon)++
 # Copyright (C)2022 M. B. Ghaznavi-Ghoushchi
+# Edit by 2023 AfifehGhaemnia
 #
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -58,7 +59,7 @@ with open(filename, 'w') as fh:
 # Edit json if you want
 filename = os.path.join(root, 'html', 'index1.html')
 mydata = [
-{"Parameters":       '["Noise", "Linearity", "Gain", "Supply Voltage", "Voltage Swing", "Speed", "I/O Impedance", "Power"]'},
+{"Parameters":       '["Noise", "Linearity", "Gain", "Supply Voltage", "Slew Rate", "Speed", "I/O Impedance", "Power"]'},
 {"DesignName": "Design 1", "borderColor": "red", "pointStyle": "triangle", "data": '[65, 75, 70, 80, 60, 80, 60, 70]'},
 {"DesignName": "Design 2", "borderColor": "blue", "pointStyle": "rect", "data": '[54, 65, 60, 70, 70, 75, 75, 70]'},
 {"DesignName": "Design 3", "borderColor": "green", "pointStyle": "circle", "data": '[84, 56, 75, 40, 90, 85, 54, 65,]'},
@@ -72,7 +73,7 @@ with open(filename, 'w') as fh:
 # Edit json if you want
 filename = os.path.join(root, 'html', 'index2.html')
 mydata = [
-{"Parameters":       '["Noise", "Linearity", "Gain", "Supply Voltage", "Voltage Swing", "Speed", "I/O Impedance", "Power", "Design Time"]'},
+{"Parameters":       '["Noise", "Linearity", "Gain", "Supply Voltage", "Slew Rate", "Speed", "I/O Impedance", "Power", "Design Time"]'},
 {"DesignName": "Design 1", "borderColor": "red", "pointStyle": "triangle", "data": '[65, 75, 70, 80, 60, 80, 60, 70, 49]'},
 {"DesignName": "Design 2", "borderColor": "blue", "pointStyle": "rect", "data": '[54, 65, 60, 70, 70, 75, 75, 70, 60]'},
 {"DesignName": "Design 3", "borderColor": "green", "pointStyle": "circle", "data": '[84, 56, 75, 40, 90, 85, 54, 65, 90]'},
@@ -85,7 +86,7 @@ with open(filename, 'w') as fh:
 # Edit json if you want
 filename = os.path.join(root, 'html', 'index3.html')
 mydata = [
-{"Parameters":       '["Noise", "Linearity", "Gain", "Supply Voltage", "Voltage Swing", "Speed", "I/O Impedance", "Power", "Design Time"]'},
+{"Parameters":       '["Noise", "Linearity", "Gain", "Supply Voltage", "Slew Rate", "Speed", "I/O Impedance", "Power", "Design Time"]'},
 {"DesignName": "Design 1", "borderColor": "red", "pointStyle": "triangle", "data": '[65, 75, 70, 80, 60, 80, 60, 70, 49]'},
 {"DesignName": "Design 2", "borderColor": "blue", "pointStyle": "rect", "data": '[54, 65, 60, 70, 70, 75, 75, 70, 60]'},
 {"DesignName": "Design 3", "borderColor": "green", "pointStyle": "circle", "data": '[84, 56, 75, 40, 90, 85, 54, 65, 90]'},
@@ -99,7 +100,7 @@ with open(filename, 'w') as fh:
 # Edit json if you want
 filename = os.path.join(root, 'html', 'index4.html')
 mydata = [
-{"Parameters":       '["Noise", "Linearity", "Gain", "Supply Voltage", "Voltage Swing", "Speed", "I/O Impedance", "Power", "Design Time", "Extra Param one"]'},
+{"Parameters":       '["Noise", "Linearity", "Gain", "Supply Voltage", "Slew Rate", "Speed", "I/O Impedance", "Power", "Design Time", "Extra Param one"]'},
 {"DesignName": "Design 1", "borderColor": "red", "pointStyle": "triangle", "data": '[65, 75, 70, 80, 60, 80, 60, 70, 49, 33]'},
 {"DesignName": "Design 2", "borderColor": "blue", "pointStyle": "rect", "data": '[54, 65, 60, 70, 70, 75, 75, 70, 60, 91]'},
 {"DesignName": "Design 3", "borderColor": "green", "pointStyle": "circle", "data": '[84, 56, 75, 40, 90, 85, 54, 65, 90, 66]'},
@@ -114,7 +115,7 @@ with open(filename, 'w') as fh:
 # Edit json if you want
 fileout = 'index5.html'
 mydata = [
-{"Parameters":       '["Noise", "Linearity", "Gain", "Supply Voltage", "Voltage Swing", "Speed", "I/O Impedance", "Power"]'},
+{"Parameters":       '["Noise", "Linearity", "Gain", "Supply Voltage", "Slew Rate", "Speed", "I/O Impedance", "Power"]'},
 {"DesignName": "Design 1", "borderColor": "red", "pointStyle": "triangle", "data": '[65, 75, 70, 80, 60, 80, 60, 70]'},
 {"DesignName": "Design 2", "borderColor": "blue", "pointStyle": "rect", "data": '[54, 65, 60, 70, 70, 75, 75, 70]'},
 {"DesignName": "Design 3", "borderColor": "green", "pointStyle": "circle", "data": '[84, 56, 75, 40, 90, 85, 54, 65,]'},
@@ -128,7 +129,7 @@ with open(filename, 'w') as fh:
 # Edit json if you want
 filename = os.path.join(root, 'html', 'index6.html')
 mydata = [
-{"Parameters":       '["Noise", "Linearity", "Gain", "Supply Voltage", "Voltage Swing", "Speed", "I/O Impedance", "Power", "Design Time", "Extra Param one", "Extra Param two"]'},
+{"Parameters":       '["Noise", "Linearity", "Gain", "Supply Voltage", "Slew Rate", "Speed", "I/O Impedance", "Power", "Design Time", "Extra Param one", "Extra Param two"]'},
 {"DesignName": "Design 1", "borderColor": "red", "pointStyle": "triangle", "data": '[65, 75, 70, 80, 60, 80, 60, 70, 49, 33, 89]'},
 {"DesignName": "Design 2", "borderColor": "blue", "pointStyle": "rect", "data": '[54, 65, 60, 70, 70, 75, 75, 70, 60, 91, 19]'},
 {"DesignName": "Design 3", "borderColor": "green", "pointStyle": "circle", "data": '[84, 56, 75, 40, 90, 85, 54, 65, 90, 66, 45]'},
