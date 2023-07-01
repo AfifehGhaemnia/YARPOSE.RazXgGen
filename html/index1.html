@@ -24,11 +24,11 @@ Chart.defaults.font.family = "Lato";
 Chart.defaults.font.size = 11;
 Chart.defaults.color = "black";
 var radarData = {
-  labels: ["Noise", "Linearity", "Gain", "Supply Voltage", "Slew Rate", "Speed", "I/O Impedance","Design Time", "Power"],
+  labels: ["Phase Noise", "Linearity",  "Slew Rate", "Speed", "I/O Impedance","Design Time", "Power"],
   datasets: [
        
   {
-    label: "Design 1",
+    label: "Design 1 [9]",
     backgroundColor: "red",
     borderColor: "red",
     fill: false,
@@ -39,11 +39,11 @@ var radarData = {
     pointBorderColor: "black",
     pointHoverRadius: 10,
     pointStyle: "triangle",
-    data: [65, 75, 70, 80, 60, 80, 60,51, 80],
+    data: [27, 75,  60, 80, 60,51, 100],
   },
       
   {
-    label: "Design 2",
+    label: "Design 2 [6]",
     backgroundColor: "blue",
     borderColor: "blue",
     fill: false,
@@ -54,7 +54,7 @@ var radarData = {
     pointBorderColor: "black",
     pointHoverRadius: 10,
     pointStyle: "rect",
-    data: [54, 65, 60, 70, 70, 75, 75,44, 66],
+    data: [30, 65, 70, 75, 59,44, 66],
   },
       
   {
@@ -69,7 +69,7 @@ var radarData = {
     pointBorderColor: "black",
     pointHoverRadius: 10,
     pointStyle: "circle",
-    data: [54, 53, 75, 60, 90, 95, 64, 50,48],
+    data: [45, 53, 90, 95, 64, 50,10],
   },
    	
 ]
