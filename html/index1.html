@@ -24,11 +24,11 @@ Chart.defaults.font.family = "Lato";
 Chart.defaults.font.size = 11;
 Chart.defaults.color = "black";
 var radarData = {
-  labels: ["Phase Noise",   "Slew Rate", "Speed", "I/O Impedance","Design Time", "Power"],
+  labels: ["Phase Noise", "Jitter", "Power", "Speed","Max.Freq"],
   datasets: [
        
   {
-    label: "Design 1 [9]",
+    label: "Design 1 [L=0.18um]",
     backgroundColor: "red",
     borderColor: "red",
     fill: false,
@@ -39,11 +39,11 @@ var radarData = {
     pointBorderColor: "black",
     pointHoverRadius: 10,
     pointStyle: "triangle",
-    data: [27,  60, 80, 60,51, 100],
+    data: [71,  40, 58, 63,53],
   },
       
   {
-    label: "Design 2 [6]",
+    label: "Design 2 [L=5um]",
     backgroundColor: "blue",
     borderColor: "blue",
     fill: false,
@@ -54,11 +54,11 @@ var radarData = {
     pointBorderColor: "black",
     pointHoverRadius: 10,
     pointStyle: "rect",
-    data: [30,  70, 75, 59,44, 66],
+    data: [49,  30, 35, 80,46],
   },
       
   {
-   label: "Proposed_Design ",
+   label: "Optimum_Design [L=1um] ",
     backgroundColor: "green",
     borderColor: "green",
     fill: false,
@@ -69,7 +69,7 @@ var radarData = {
     pointBorderColor: "black",
     pointHoverRadius: 10,
     pointStyle: "circle",
-    data: [45,  90, 95, 64, 50,10],
+    data: [65,  35, 38, 75,50],
   },
    	
 ]
@@ -78,7 +78,7 @@ var chartOptions = {
   plugins: {
     title: {
       display: true,
-      text: "Modified Razavi's Analog Octagon to Digital Design",
+      text: "Modified Razavi's Analog Octagon to Desirable Digital Design (PFD)",
       position: "bottom" },
     legend: {
       position: "bottom",
